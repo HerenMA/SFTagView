@@ -26,9 +26,9 @@ Pod::Spec.new do |s|
     ss.exclude_files = "WrapViewWithAutolayout/AppDelegate.{h,m}", "WrapViewWithAutolayout/ViewController.{h,m}", "WrapViewWithAutolayout/main.m"
   end
 
-  #s.subspec 'Framework' do |ss|
-  #  ss.ios.vendored_framework   = 'ios/SFTagView.framework'
-  #end
+  s.subspec 'Framework' do |ss|
+    ss.ios.vendored_framework   = 'ios/SFTagView.framework'
+  end
   
   s.framework  = "UIKit", "Foundation"
     

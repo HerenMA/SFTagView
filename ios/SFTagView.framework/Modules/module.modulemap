@@ -1,0 +1,6 @@
+framework module SFTagView {
+  umbrella header "SFTagView.h"
+
+  export *
+  module * { export * }
+}
